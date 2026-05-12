@@ -1,9 +1,62 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "test",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "test_text": "Test Text"
+      }
+    },
+    "hero_banner_PthV7G": {
+      "type": "hero-banner",
+      "blocks": {
+        "banner_image_a7JNda": {
+          "type": "banner-image",
+          "name": "Hero Image",
+          "settings": {
+            "image": "shopify://shop_images/img.png",
+            "desktop_aspect_ratio": 2.1,
+            "mobile_image": "shopify://shop_images/cddb8c8b-8080-46a1-a779-782b448d6a2d-bannerhp_1.png",
+            "mobile_aspect_ratio": 0.5,
+            "heading": "A Design-Led Agency for Modern Ecommerce"
+          },
+          "blocks": {
+            "heading_pAy9mc": {
+              "type": "heading",
+              "name": "Heading",
+              "settings": {
+                "heading": "A Design-Led Agency for Modern Ecommerce",
+                "font_size": 32,
+                "color": "#fafafa"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_pAy9mc"
+          ]
+        }
+      },
+      "block_order": [
+        "banner_image_a7JNda"
+      ],
+      "name": "Hero Banner",
+      "settings": {
+        "width": "full"
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main",
+    "hero_banner_PthV7G"
+  ]
 }

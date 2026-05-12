@@ -1,0 +1,27 @@
+<div class="hero-banner hero-banner--{{ section.id }} {% if section.settings.width == 'container' %}max-w-screen-xl mx-auto px-4{% else %}w-full{% endif %}">
+  {% content_for 'blocks' %}
+</div>
+
+{% schema %}
+{
+  "name": "Hero Banner",
+  "blocks": [{ "type": "@theme" }],
+  "settings": [
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "options": [
+        { "value": "full", "label": "Full width" },
+        { "value": "container", "label": "Container width" }
+      ],
+      "default": "full"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Banner"
+    }
+  ]
+}
+{% endschema %}
