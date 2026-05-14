@@ -26,8 +26,7 @@
             "image": "shopify://shop_images/img.png",
             "desktop_aspect_ratio": 2.1,
             "mobile_image": "shopify://shop_images/cddb8c8b-8080-46a1-a779-782b448d6a2d-bannerhp_1.png",
-            "mobile_aspect_ratio": 0.5,
-            "heading": "A Design-Led Agency for Modern Ecommerce"
+            "mobile_aspect_ratio": 0.7
           },
           "blocks": {
             "heading_pAy9mc": {
@@ -35,7 +34,8 @@
               "name": "Heading",
               "settings": {
                 "heading": "A Design-Led Agency for Modern Ecommerce",
-                "font_size": 32,
+                "font_size": 48,
+                "font_size_mobile": 32,
                 "color": "#fafafa"
               },
               "blocks": {}
